@@ -1,0 +1,178 @@
+body{
+  font-family: 'Inter', sans-serif;
+  padding-top: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: auto;
+  background-color: hsl(36, 100%, 99%)
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav-items{
+  list-style: none;
+  display: inline-block;
+  padding: 0 25px;
+  color: hsl(236, 13%, 42%);
+}
+
+.nav-items a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-content-sidebar{
+  display: flex;
+}
+
+.main-content{
+  width: 70%;
+  height: 70vh;
+}
+
+.left-content{
+  display: flex;
+}
+
+.main-image img{
+  width: 100%;
+  height: 400px;
+}
+
+.main-text{
+  width: 45%;
+}
+
+.headline{
+  font-weight: 800;
+  font-size: 70px;
+  margin-top: 30px;
+}
+
+.sub-text{
+  width: 50%;
+}
+
+.caption{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(93, 95, 121);
+  line-height: 30px;
+}
+
+.cta{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(241, 94, 80);
+  color: hsl(36, 100%, 99%);
+  border: none;
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 27px;
+}
+
+.sidebar{
+  width: 27%;
+  margin-left: 20px;
+  background-color: hsl(240, 100%, 5%);
+  display: flex;
+  flex-direction: column;
+  color: hsl(36, 100%, 99%);
+  height: 65vh;
+  padding: 30px;
+}
+
+.sidebar h1{
+  color: hsl(35, 77%, 62%);
+  font-weight: 800;
+  font-size: 60px;
+  margin-top: -1px;
+  margin-bottom: -2px;
+}
+
+.sidebar h2{
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.subtitles{
+  font-weight: 400;
+  font-size: 20px;
+  color: hsl(233, 8%, 79%);
+  margin-top: -5px;
+  margin-bottom: 50px;
+}
+
+#first-article{
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+
+#second-article{
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+
+#third-article{
+  margin-top: 10px;
+}
+
+.bottom-content{
+  width: 100%;
+  height: 250px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-stories{
+  width: 30%;
+  height: 180px;
+  display: flex;
+}
+
+.story{
+  padding-left: 20px;
+}
+
+.story h1{
+  color: hsl(233, 8%, 79%);
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: -1px;
+  margin-bottom: -3px;
+}
+
+.story h3{
+  color: hsl(240, 100%, 5%);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.story p{
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.attribution{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
